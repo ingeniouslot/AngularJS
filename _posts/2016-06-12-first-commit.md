@@ -1,15 +1,15 @@
 ---
 layout: post
-title: First Commit
+title: "First Commit"
 description: ""
 headline: ""
-categories: personal
-tags:
-  - setup
+categories: "general"
+tags: [general]
+imagefeature:
 comments: false
-mathjax: null
-featured: true
-published: true
+mathjax:
+chart:
+featured: false
 ---
 
 >&quot;The beginning is the most important part of the work.&quot;

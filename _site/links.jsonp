@@ -2,17 +2,7 @@ callback([
 
   {
     "text": "First Commit",
-    "href": "http://ingeniouslot.github.io/AngularJS/personal/first-commit"
-  } ,
-
-  {
-    "text": "How many things are there?",
-    "href": "http://ingeniouslot.github.io/AngularJS/how-many-things-are-there"
-  } ,
-
-  {
-    "text": "Jekyll + Prose.io",
-    "href": "http://ingeniouslot.github.io/AngularJS/webdevelopment/jekyll-prose-io"
+    "href": "/general/first-commit"
   } 
 
 ])

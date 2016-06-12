@@ -2,26 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
      
     <url>
-        <loc>http://ingeniouslot.github.io/AngularJS/</loc>
+        <loc>/</loc>
     </url> 
     <url>
-        <loc>http://ingeniouslot.github.io/AngularJS/featured</loc>
+        <loc>/featured</loc>
     </url> 
     <url>
-        <loc>http://ingeniouslot.github.io/AngularJS/categories</loc>
+        <loc>/categories</loc>
     </url>
     
     
     <url>
-        <loc>http://ingeniouslot.github.io/AngularJS/webdevelopment/jekyll-prose-io</loc>
-    </url>
-    
-    <url>
-        <loc>http://ingeniouslot.github.io/AngularJS/how-many-things-are-there</loc>
-    </url>
-    
-    <url>
-        <loc>http://ingeniouslot.github.io/AngularJS/personal/first-commit</loc>
+        <loc>/general/first-commit</loc>
     </url>
     
 </urlset>
