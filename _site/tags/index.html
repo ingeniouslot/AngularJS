@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>TAG INDEX</title>
+<title>TAG INDEX &vert; ANGULARJS - INGENIOUSLOT</title>
 <meta name="description" content="An archive of posts sorted by tag.">
 
 
@@ -11,7 +11,7 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="TAG INDEX">
+<meta property="og:title" content="Tag Index">
 <meta property="og:description" content="An archive of posts sorted by tag.">
 <meta property="og:url" content="/tags/index.html">
 <meta property="og:site_name" content="AngularJS - IngeniousLot">
@@ -29,15 +29,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/assets/css/vendor/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/vendor/normalize.css">
+    <link rel="stylesheet" href="/assets/css/vendor/nprogress.css">
     <link rel="stylesheet" href="/assets/css/vendor/foundation.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/post.css">
     <link rel="stylesheet" href="/assets/css/base.css">
-    <script src="/assets/js/vendor/modernizrb146.js?v=77a7756db2"></script>
 
 
 
@@ -60,24 +59,24 @@
 </head>
 <body class="post-template page" itemscope itemtype="http://schema.org/WebPage">
 
-<main id="summer-page-container" class="summer-page-container" role="main">
-
-
-        <header class="summer-page-header">
-            <div class="summer-page-menu-header">
-
-                    <a class="summer-blog-logo notepad-blog-logo" href="">
-                        <img src="/images/logo.png" alt="Blog Logo" />
+<main id="notepad-page-container" class="notepad-page-container" role="main">
+    
+    
+        <header class="notepad-page-header">
+            <div class="notepad-page-menu-header">
+                
+                    <a class="notepad-blog-logo" href="">
+                        <img src="/images/logo_mobile.png" alt="Blog Logo">
                     </a>
-
-
-
-                <div class="summer-blog-menu">
-    <div class="summer-mobile-menu show-for-small">
+                
+                
+                
+                <div class="notepad-blog-menu">      
+    <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
-    <ul class="summer-menu">
-        <li class="summer-mobile-close-btn show-for-small text-right">
+    <ul class="notepad-menu">
+        <li class="notepad-mobile-close-btn show-for-small text-right">
             <a href="#"><i class="fa fa-times"></i></a>
         </li>
 
@@ -96,14 +95,14 @@
     </ul>
 </div>
             </div>
-            <div class="summer-page-title row">
+            <div class="notepad-page-title row">
                 <div class="small-12 columns">
-                    <h1>TAG INDEX</h1>
+                    <h1>Tag Index</h1>
                 </div>
             </div>
         </header>
 
-<article class="summer-page-content">
+<article class="notepad-page-content">
                     <div><ul class="tag-box inline">
   
   
@@ -115,7 +114,7 @@
 </ul>
 
  
-	<h2 id="general" style="color: #c91b26">General</h2>
+	<h2 id="general">General</h2>
 	<ul class="post-list">
 		  
 		
@@ -131,13 +130,12 @@
 </div>
 </article>
         <div class="cf"></div>
-</main>
-    <footer class="summer-site-footer">
+    <footer class="notepad-site-footer">
     <div class="copyright">
          <section>&copy; Copyright <a href="">IngeniousLot</a> 2016 &bull; All rights reserved.</section>
     </div>
     <div class="social-icons">
-
+        
         
         
         
@@ -154,15 +152,22 @@
 
     <div class="cf"></div>
 </footer>
-    <script src="/assets/js/public/jqueryb146.js?v=77a7756db2"></script>
+</main>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="/assets/js/vendor/modernizr.js"></script>
+    <script src="/assets/js/foundation.min.js"></script>
     
-    <script src="/assets/js/vendor/fastclickb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/vendor/foundation.minb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/vendor/background-checkb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/vendor/post-header-animationsb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/summerb146.js?v=77a7756db2"></script>
+    <script src="/assets/js/notepad.js"></script>
+    <script src="/assets/js/scripts.min.js"></script>
+    <script src="/assets/js/vendor/nprogress.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
 
 
+<script>NProgress.start();var interval=setInterval(function(){NProgress.inc()},1000);jQuery(window).load(function(){clearInterval(interval);NProgress.done()});jQuery(window).unload(function(){NProgress.start()});</script>  
 </body>
 </html>

@@ -1,6 +1,6 @@
 title:            AngularJS - IngeniousLot
 description:      "A year from now you'll wish you had started today"
-logo: logo.png
+logo: logo_mobile.png
 disqus_shortname: IngeniousLot
 share:            true
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -21,7 +21,7 @@ owner:
   instagram:
   # For Google Authorship https://plus.google.com/authorship
   google_plus:
-  avatar: http://www.gravatar.com/avatar/a214ac33ad94cdf481b519421f79341a.jpg?r=g
+  avatar: logo_mobile.png
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:

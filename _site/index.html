@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>BLOG</title>
+<title>BLOG &vert; ANGULARJS - INGENIOUSLOT</title>
 <meta name="description" content="The personal blog of Hossain Mohd. Faysal, a doctoral candidate in Electrical Engineering at University of Pennsylvania.">
 <meta name="keywords" content="Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsylvania, doha, Qatar">
 
@@ -29,15 +29,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
 
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin,latin-ext' rel='stylesheet'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600&amp;subset=latin,latin-ext' rel='stylesheet'>
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/assets/css/vendor/font-awesome.min.css">
     <link rel="stylesheet" href="/assets/css/vendor/normalize.css">
+    <link rel="stylesheet" href="/assets/css/vendor/nprogress.css">
     <link rel="stylesheet" href="/assets/css/vendor/foundation.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/post.css">
     <link rel="stylesheet" href="/assets/css/base.css">
-    <script src="/assets/js/vendor/modernizrb146.js?v=77a7756db2"></script>
 
 
 
@@ -59,19 +58,17 @@
 
 </head>
 <body class="home-template" itemscope itemtype="http://schema.org/WebPage">
-<header class="summer-site-head">
-    <div class="summer-site-head-menu">
-        <a class="summer-blog-logo notepad-blog-logo" href="">
-            <img src="/images/logo.png" alt="Blog Logo" />
-        </a>
-
-
-        <div class="summer-blog-menu">
-    <div class="summer-mobile-menu show-for-small">
+<header class="notepad-site-head">
+    <div class="notepad-site-head-menu">
+        <a class="notepad-blog-logo" href=""><img src="/images/logo_mobile.png" alt="Blog Logo" /></a>
+        
+        
+        <div class="notepad-blog-menu">      
+    <div class="notepad-mobile-menu show-for-small">
         <a href="#"><i class="fa fa-bars"></i></a>
     </div>
-    <ul class="summer-menu">
-        <li class="summer-mobile-close-btn show-for-small text-right">
+    <ul class="notepad-menu">
+        <li class="notepad-mobile-close-btn show-for-small text-right">
             <a href="#"><i class="fa fa-times"></i></a>
         </li>
 
@@ -91,20 +88,21 @@
 </div>
         <div class="clearfix"></div>
     </div>
-    <div class="summer-site-head-content" >
-        <div class="summer-site-head-bg"></div>
-        <h2 class="summer-blog-description">A year from now you'll wish you had started today</h2>
+    <div class="notepad-site-head-content" >
+        <div class="notepad-site-head-bg"></div>
+
+        <h2 class="notepad-blog-description">A year from now you'll wish you had started today</h2>
     </div>
 </header>
 
 
-<main class="summer-content" role="main">
+<main class="notepad-content" role="main">
 
             
 	
-    <article class="summer-index-post post row">
+    <article class="notepad-index-post post row">
         <div class="small-12 medium-3 large-2 columns datetime">
-            <span class="summer-post-meta">
+            <span class="notepad-post-meta">
                 <time datetime="2016-06-12T00:00:00-04:00">
                     <span class="day">
                         12
@@ -116,14 +114,14 @@
             </span>
         </div>
         <div class="small-12 medium-9 large-10 columns">
-            <header class="summer-post-header">
-                <h3 class="summer-post-title">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
                     <a href="/general/first-commit">
                         First Commit
                     </a>
                 </h3>
             </header>
-            <section class="summer-post-excerpt">
+            <section class="notepad-post-excerpt">
                 <p>
   "The beginning is the most important part of the work."
 Plato
@@ -131,12 +129,12 @@ Plato
 
 </p>
             </section>
-
-                <div class="summer-index-post-tags">
+            
+                <div class="notepad-index-post-tags">
                 <a href="/categories/index.html#general" title="Other posts from the General category">General</a>
-
+                    
                 </div>
-
+            
         </div>
     </article>
 	
@@ -153,12 +151,12 @@ Plato
 	</nav>
 
 </main>
-    <footer class="summer-site-footer">
+    <footer class="notepad-site-footer">
     <div class="copyright">
          <section>&copy; Copyright <a href="">IngeniousLot</a> 2016 &bull; All rights reserved.</section>
     </div>
     <div class="social-icons">
-
+        
         
         
         
@@ -176,15 +174,20 @@ Plato
     <div class="cf"></div>
 </footer>
 
-    <script src="/assets/js/public/jqueryb146.js?v=77a7756db2"></script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="/assets/js/vendor/modernizr.js"></script>
+    <script src="/assets/js/foundation.min.js"></script>
     
-    <script src="/assets/js/vendor/fastclickb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/vendor/foundation.minb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/vendor/background-checkb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/vendor/post-header-animationsb146.js?v=77a7756db2"></script>
-    <script src="/assets/js/summerb146.js?v=77a7756db2"></script>
+    <script src="/assets/js/notepad.js"></script>
+    <script src="/assets/js/scripts.min.js"></script>
+    <script src="/assets/js/vendor/nprogress.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
 
 
+<script>NProgress.start();var interval=setInterval(function(){NProgress.inc()},1000);jQuery(window).load(function(){clearInterval(interval);NProgress.done()});jQuery(window).unload(function(){NProgress.start()});</script>  
 </body>
 </html>
