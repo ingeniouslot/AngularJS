@@ -5,10 +5,11 @@ mathjax: false
 featured: false
 comments: false
 title: How to Bootstrap AngularJS Application
-description: ''
+description: Describes how to bootstrap AngularJS
+categories:
+  - Initialization
 headline: ''
 modified: ''
-categories: ''
 tags: ''
 imagefeature: ''
 ---
