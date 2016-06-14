@@ -396,7 +396,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     color: black; }
     .notepad-page-title a:hover,
     .notepad-post-title-simple a:hover {
-      color: #e51843; }
+      color: #1cb28b; }
   .notepad-page-title h1,
   .notepad-post-title-simple h1 {
     color: black;
@@ -462,7 +462,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     padding-left: 1.875rem;
     padding-right: 1.875rem; }
     .notepad-page-content > div:not(.notepad-page-title) a, .notepad-page-content > div:not(.notepad-page-title) code {
-      color: #e51843; }
+      color: #1cb28b; }
     .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol {
       padding-left: 1.25rem;
       font-size: 1.125rem; }
