@@ -1,17 +1,18 @@
 ---
 layout: post
-mathjax: false
+mathjax:
 featured: false
 comments: false
 title: How to Bootstrap AngularJS Application
 description: Describes different ways to initialize AngularJS Application
-categories: "initialization"
+categories: "basic"
 imagefeature:
 headline: ''
 modified: ''
 tags: [Initialization]
 imagefeature: ''
 ---
+
 ## Automatic Initialization
 
 Place _**ng-app**_ to the root of your application, typically on the <html> tag if you want angular to auto-bootstrap your application.
@@ -20,7 +21,7 @@ Place _**ng-app**_ to the root of your application, typically on the <html> tag 
 <!doctype html>
 <html ng-app="moduleName">
   <body>
-	...
+    ...
     <script src="angular.js"></script>
   </body>
 </html>
@@ -33,7 +34,7 @@ If you need to have more control over the initialization process, you can use a 
 <!doctype html>
 <html>
   <body>
-	...
+    ...
     <div ng-controller="controllerName">
     ...
     </div>
@@ -45,11 +46,11 @@ If you need to have more control over the initialization process, you can use a 
 {% highlight javascript %}
 angular.module('myApp', [])
 .controller('controllerName', ['$scope', function ($scope) {
-	...
+    ...
 }]);
 
 angular.element(document).ready(function() {
-	angular.bootstrap(document, ['myApp']);
+    angular.bootstrap(document, ['myApp']);
 });
 {% endhighlight %}
 
