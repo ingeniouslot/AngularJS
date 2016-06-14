@@ -542,6 +542,7 @@ figure.highlight {
     margin: 20px auto;
     padding: 20px;
     width: 60%;
+    background-color: #EEEEEE;
 }
 
 .highlight .c { color: #3F6B5B; font-weight: bold} /* Comment */
