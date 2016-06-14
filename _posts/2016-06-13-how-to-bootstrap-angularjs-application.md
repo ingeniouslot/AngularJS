@@ -1,16 +1,14 @@
 ---
 layout: post
-published: true
 mathjax: false
 featured: false
 comments: false
 title: How to Bootstrap AngularJS Application
-description: Describes how to bootstrap AngularJS
-categories:
-  - Initialization
+description: Describes different ways to initialize AngularJS Application
+categories: "initialization"
 headline: ''
 modified: ''
-tags: ''
+tags: [Initialization]
 imagefeature: ''
 ---
 ## Automatic Initialization

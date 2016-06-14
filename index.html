@@ -29,14 +29,14 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
                 </h3>
             </header>
             <section class="notepad-post-excerpt">
-                <p>{{ post.content | strip_html | truncatewords:40 }}</p>
+                <p>{{ post.description }}</p>
             </section>
-            
+
                 <div class="notepad-index-post-tags">
                 {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                    
+
                 </div>
-            
+
         </div>
     </article>
 	{% endfor %}
@@ -85,13 +85,13 @@ tags: [Hossain, Mohd, Faysal, electrical, engineering, blog, university, pennsyl
             <section class="notepad-post-excerpt">
                 <p>{{ post.content | strip_html | truncatewords:100 }}</p>
             </section>
-            
+
                 <div class="notepad-index-post-tags">
                 {% for tag in post.categories %}<a href="{{ site.url }}/categories/index.html#{{ post.categories | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} category">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-                    
+
                 </div>
-            
+
         </div>
     </article>
-	{% endfor %}  
+	{% endfor %}
 {% endif %}
