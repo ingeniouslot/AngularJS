@@ -3,6 +3,7 @@ description:      "A year from now you'll wish you had started today"
 logo: logo_mobile.png
 disqus_shortname: IngeniousLot
 share:            true
+dropcap:		  true
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
@@ -112,14 +113,8 @@ prose:
           options:
             - name: "Personal"
               value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
+            - name: "General"
+              value: general
             - name: "Web-Development"
               value: webdevelopment
           alterable: true
