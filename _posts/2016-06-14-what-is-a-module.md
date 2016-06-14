@@ -27,7 +27,7 @@ angular
 
 {% highlight javascript %}
 var app = angular
-                    .module('app');
+        .module('app');
 {% endhighlight %}
 
 this will return the existing **app** module.
