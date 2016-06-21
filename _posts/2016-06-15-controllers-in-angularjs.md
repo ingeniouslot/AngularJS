@@ -33,7 +33,11 @@ A controller is defined by a JavaScript constructor function. Controllers are us
 
 ## Attach controller to DOM
 
-Controller is attached to the DOM via the ng-controller directive.
+When a controller is attached to the DOM Angular will instantiate a new Controller object, using the specified Controller's constructor function.
+
+You can attach controller to DOM in two different ways
+
+1. Controller is attached to the DOM via the **ng-controller** directive.
 
 {% highlight HTML %}
 
@@ -43,7 +47,10 @@ Controller is attached to the DOM via the ng-controller directive.
 
 {% endhighlight %}
 
-When a controller is attached to the DOM Angular will instantiate a new Controller object, using the specified Controller's constructor function.
+2. Declaring it in a route definition via the **$route** service.
+
+
+**Note:** A common mistake is to declare the controller again using ng-controller in the template itself. This will cause the controller to be attached and executed twice.
 
 
 
