@@ -38,19 +38,19 @@ When a controller is attached to the DOM Angular will instantiate a new Controll
 
 You can attach controller to DOM in two different ways:
 
-1. Controller is attached to the DOM via the **ng-controller** directive.
+    1. Controller is attached to the DOM via the **ng-controller** directive.
 
-{% highlight HTML %}
+    {% highlight HTML %}
 
-<div ng-controller="MainController">
-  ...
-</div>
+    <div ng-controller="MainController">
+      ...
+    </div>
 
-{% endhighlight %}
+    {% endhighlight %}
 
-2. Declaring it in a route definition via the **$route** service.
+    2. Declaring it in a route definition via the **$route** service.
 
-**Note:** A common mistake is to declare the controller again using ng-controller in the template itself. This will cause the controller to be attached and executed twice.
+    **Note:** A common mistake is to declare the controller again using ng-controller in the template itself. This will cause the controller to be attached and executed twice.
 
 
 
